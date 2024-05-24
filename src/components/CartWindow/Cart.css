@@ -1,0 +1,63 @@
+.backdrop {
+    z-index: 150;
+    background-color: rgba(0, 0, 0, 0.432);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.totalAmountLabel{
+    margin: 0.5rem 0 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.totalAmount {
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.totalAmountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CartCard {
+    width: 40%;
+    padding: 2.5rem 1rem 1rem 1rem;
+    background-color: white;
+    z-index: 200;
+    position: fixed;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.closeAndOrderButtons{
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: right;
+}
+
+.closeButton, .orderButton {
+    height: 2.25rem;
+    margin-left: 1rem;
+}
+
+.closeButton {
+    color: rgb(124, 56, 29);
+    background-color: white;
+    border: 1px solid rgb(124, 56, 29);
+}
+
+.orderButton:hover {
+    background-color: rgb(83, 40, 23);
+}
+
+.closeButton:hover {
+    color: white;
+    background-color: rgb(177, 90, 55);
+}
